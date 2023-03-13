@@ -1,4 +1,10 @@
+body{
+    font-family: Barlow,sans-serif;
+}
 
+h1,h2,h3,button{
+    font-family: Fraunces,serif;
+}
 
 h1{
     color:#FDD6BA;
@@ -31,8 +37,13 @@ h1{
 .summary-btn-bg{
     background: #0E8784;
 }
-.span-color{
+.span-color,span.color{
     color: #0E8784;
+}
+.btn-modal{
+    background: #0E8784;
+    outline: none;
+    border: none;
 }
 @media screen and (max-width: 768px) {
 
@@ -142,3 +153,40 @@ h1{
 
 }
 
+@media screen and (max-width: 768px) {
+    .bg-modal-top {
+        background-image: url(../assets/plan/mobile/bg-order-summary.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height:12vh;
+    }
+    
+    
+ 
+    
+ 
+    
+}
+@media screen and (min-width: 768px) {
+
+.bg-modal-top {
+    background-image: url(../assets/plan/tablet/bg-steps.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:10vh;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .bg-modal-top {
+        background-image: url(../assets/plan/desktop/bg-modal-top.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height:10vh;
+    }
+}

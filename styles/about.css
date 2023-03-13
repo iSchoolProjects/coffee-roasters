@@ -1,0 +1,37 @@
+
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .background{
+        background-image: url(./assets/about/mobile/image-hero-whitecup.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;  
+      }
+      .bg-quality{
+        background-image: url(./assets/about/mobile/bg-quality.png);
+      }
+}
+@media screen and (min-width:768px) {
+    .background{
+        background-image: url(./assets/about/tablet/image-hero-whitecup.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;  
+
+      }
+      .bg-quality{
+        background-image: url(./assets/about/tablet/bg-quality.png);
+      }
+}
+@media screen and (min-width:922px) {
+    .background{
+        background-image: url(./assets/about/desktop/image-hero-whitecup.jpg);
+        background-repeat: no-repeat;
+         
+      }
+      .bg-quality{
+        background-image: url(./assets/about/desktop/bg-quality.png);
+      }
+}
