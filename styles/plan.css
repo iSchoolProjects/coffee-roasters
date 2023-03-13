@@ -1,0 +1,144 @@
+
+
+h1{
+    color:#FDD6BA;
+    font-size:72px;
+ }
+ h3{
+    font-size: 28px;
+}
+
+.text-plan-color{
+    color:#FEFCF7;
+}
+.card-bg{
+    background: #0E8784;
+}
+.box-bg{
+    background: #F2F2F2 ;
+}
+.button-text-color{
+    color: #83888F;
+}
+
+.box-text-color{
+    color:#333D4B ;
+}
+
+.summary-line-height{
+    line-height: 40px;
+}
+.summary-btn-bg{
+    background: #0E8784;
+}
+.span-color{
+    color: #0E8784;
+}
+@media screen and (max-width: 768px) {
+
+    h2{
+        color:#FEFCF7;
+        font-size: 40px;
+    }
+  
+    h4{
+        font-size: 24px;
+    }
+   
+    
+    .bg-hero{
+        background-image: url(../assets/plan/mobile/image-hero-blackcup.jpg);
+        background-size:cover ;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+    }
+    
+    .text-fs{
+        font-size: 15px;
+    }
+    .bg-steps{
+        background-image: url(../assets/plan/mobile/bg-steps.png);
+        background-size:cover ;
+        background-repeat: no-repeat;
+        min-height: 100%;
+    }
+
+   
+    .bg-order-summary{
+        background-image: url(../assets/plan/mobile/bg-order-summary.png);
+        background-size:cover ;
+        background-repeat: no-repeat;
+       
+    }
+   
+    .btn-text-size{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+    h2{
+        color:#FEFCF7;
+        font-size: 48px;
+    }
+    .bg-hero{
+        background-image: url(../assets/plan/tablet/image-hero-blackcup.jpg);
+        background-position: -180px 0px;
+       
+    }
+    .bg-steps{
+        background-image: url(../assets/plan/tablet/bg-steps.png);
+       min-height: unset;
+
+    }
+    .steps-circle{
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+    .steps-circle::before{
+        content: '';
+        height: 1px;
+        position: absolute;
+        width: 495px;
+        background: #FDD6BA;
+        opacity: .25;
+        left:50px;
+        bottom: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h2{
+        font-size: 72px;
+    }
+    .bg-hero{
+        background-image: url(../assets/plan/desktop/image-hero-blackcup.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 450px;
+        background-position: unset;
+    }
+
+    .bg-steps{
+        background-image: url(../assets/plan/desktop/bg-steps.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .steps-circle::before{
+        width: 840px;
+        left:285px;
+        top: 560px;
+    }
+
+    .bg-order-summary{
+        background-image: url(../assets/plan/desktop/bg-order-summary.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
