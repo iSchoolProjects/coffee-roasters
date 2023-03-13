@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 768px) {
+    .bg-modal-top {
+        background-image: url(../assets/plan/mobile/bg-order-summary.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height:12vh;
+    }
+    
+    
+    span.color {
+        color:#0E8784;
+    }
+    
+    .btn-modal {
+        background-color:#0E8784;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+
+.bg-modal-top {
+    background-image: url(../assets/plan/tablet/bg-steps.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:10vh;
+}
+
+span {
+    color:#0E8784;
+}
+
+.btn-modal {
+    background-color:#0E8784;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .bg-modal-top {
+        background-image: url(../assets/plan/desktop/bg-modal-top.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height:10vh;
+    }
+}
