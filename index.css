@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&display=swap');
+
+body {
+    font-family: Barlow;
+}
+
+.first-cover {
+    background-image: url(./assets/home/desktop/image-hero-coffeepress.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+}
+
+h1 {
+    font-family: Fraunces;
+    font-weight: 900;
+}
+
+p {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333D4B;
+}
+
+.btn {
+    background-color: #0E8784;
+    font-family: Fraunces;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: #66D2CF;
+}
+
+.background-text h2 {
+    font-family: Fraunces;
+    font-size: 180px;
+    font-weight: 900;
+    background: linear-gradient(#333, #eee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+h4 {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    color: #333D4B;
+}
+
+.negative-margin {
+    margin-top: -70px;
+}
+
+.products {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-family: Fraunces;
+    font-weight: 900;
+}
+
+.benefits {
+    background-color: #2C343E;
+    height: 450px;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 300px;
+    height: 320px;
+}
+
+.card-bg {
+    background-color: #0E8784;
+
+}
+
+.card-img-top {
+    margin-block: 60px;
+    height: 75px;
+}
+
+.card-title {
+    margin-top: -30px;
+}
+
+span h4 {
+    color: #83888F;
+    margin-top: 300px;
+
+}
+
+.timeline {
+    width: 750px;
+    border: 2px solid #FDD6BA;
+    margin-top: 80px;
+}
+
+.circle-line {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: white;
+    z-index: 1;
+    margin-top: -20px;
+    margin-left: 400px;
+
+}
+
+.circle-line::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: white;
+    z-index: 1;
+    right: 700px;
+
+}
+
+.circle-line::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: white;
+    z-index: 1;
+    left: 250px;
+
+}
+
+.numbers {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FDD6BA;
+}
+
+h3 {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 32px;
+    color: #333D4B;
+}
+
+.footer {
+    background-color: #2C343E;
+    margin-top: 120px;
+}
+
+.link-text {
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.link-text:hover {
+    color: #333D4B;
+}
+
+.link-text-footer {
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.products img {
+    width: 250px;
+    height: 190px;
+}
+
+.link-text-footer:hover {
+    color: #FEFCF7;
+}
+
+
+/* Tablet */
+@media (max-width:830px) {
+    .first-cover {
+        background-image: url(./assets/home/tablet/image-hero-coffeepress.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 30vh;
+    }
+
+    .background-text h2 {
+        font-size: 100px;
+    }
+
+    .negative-margin {
+        margin-top: -140px;
+    }
+
+    .benefits {
+        height: 500px;
+    }
+
+    span h4 {
+        margin-top: 400px;
+    }
+
+    .card {
+        width: 600px;
+        height: 200px;
+        margin-top: -60px;
+    }
+
+    .timeline {
+        width: 500px;
+
+    }
+
+    .circle-line {
+        margin-left: 250px;
+
+    }
+
+    .circle-line::before {
+        right: 250px;
+
+    }
+
+    .circle-line::after {
+        left: 50px;
+
+    }
+
+
+}
+
+/* Mobile design */
+
+@media (max-width:768px) {
+
+    .offcanvas {
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+
+    }
+
+    .nav-link {
+        font-family: 'Fraunces9pt';
+        font-weight: 900;
+    }
+
+    .first-cover {
+        background-image: url(./assets/home/mobile/image-hero-coffeepress.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    h1 {
+        font-family: Fraunces;
+        font-weight: 900;
+    }
+
+    .background-text h2 {
+        font-size: 50px;
+    }
+
+    span h4 {
+        color: #83888F;
+        margin-top: 550px;
+
+    }
+
+    .benefits {
+        height: 700px;
+
+    }
+
+    .card {
+        height: 300px;
+    }
+
+
+}
